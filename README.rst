@@ -17,4 +17,41 @@ To run your brainfuck program do the following
 
 .. code:: bash
 
-   $ brainfucky --file path/to/file.bf
+   $ brainfucky --file examples/hello_world.bf
+   executing file examples/hello_world.bf
+   Hello World!
+
+   $ brainfucky --file examples/triangle.bf
+   executing file examples/triangle.bf
+                                  *
+                                 * *
+                                *   *
+                               * * * *
+                              *       *
+                             * *     * *
+                            *   *   *   *
+                           * * * * * * * *
+                          *               *
+                         * *             * *
+                        *   *           *   *
+                       * * * *         * * * *
+                      *       *       *       *
+                     * *     * *     * *     * *
+                    *   *   *   *   *   *   *   *
+                   * * * * * * * * * * * * * * * *
+                  *                               *
+                 * *                             * *
+                *   *                           *   *
+               * * * *                         * * * *
+              *       *                       *       *
+             * *     * *                     * *     * *
+            *   *   *   *                   *   *   *   *
+           * * * * * * * *                 * * * * * * * *
+          *               *               *               *
+         * *             * *             * *             * *
+        *   *           *   *           *   *           *   *
+       * * * *         * * * *         * * * *         * * * *
+      *       *       *       *       *       *       *       *
+     * *     * *     * *     * *     * *     * *     * *     * *
+    *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
