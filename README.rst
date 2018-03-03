@@ -31,6 +31,19 @@ each performing certain functions, see below.
 |     | command after the matching [ command.                                   |
 +-----+-------------------------------------------------------------------------+
 
+About Implementation
+--------------------
+
+- The memory element, the tape is emulated using the python ``list``.
+- Value of ith element in the list corresponds to the value of cell ``i``.
+- A cell pointer is used to point towards the current cell.
+- ``+`` and ``-`` increments the value of cell pointed by the cell pointer.
+- ``>`` and ``<`` increments and decrements the cell pointer effectively, moving
+  the tape right or left.
+- Instructions in a block are executed and at the end of the execution of last
+  instruction, value of current cell is checked, if it is 0, move on, else
+  execute the block again.
+
 Install
 -------
 
